@@ -5,7 +5,7 @@ kind: DaemonSet
 apiVersion: apps/v1
 metadata:
   name: ebs-csi-node
-  namespace: kube-system
+  namespace: prometheus
   labels:
     app.kubernetes.io/name: aws-ebs-csi-driver
 spec:
